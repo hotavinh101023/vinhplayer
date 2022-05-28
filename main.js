@@ -224,6 +224,7 @@ const app = {
             } else {
                 _this.nextSong()
             }
+            _this.render();
             if (_this.currentIndex === 0 || _this.currentIndex === 1) {
                 _this.scrollToActiveSongFirstSecond();
             } else {
